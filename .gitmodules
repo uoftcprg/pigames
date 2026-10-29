@@ -1,0 +1,38 @@
+[submodule "lib/Ethereal"]
+	path = lib/Ethereal
+	url = https://github.com/AndyGrant/Ethereal.git
+[submodule "lib/KataGo"]
+	path = lib/KataGo
+	url = https://github.com/lightvector/KataGo.git
+[submodule "lib/asmFish"]
+	path = lib/asmFish
+	url = https://github.com/lantonov/asmFish.git
+[submodule "lib/dragon"]
+	path = lib/dragon
+	url = https://github.com/uoftcprg/dragon.git
+[submodule "lib/PlentyChess"]
+	path = lib/PlentyChess
+	url = https://github.com/Yoshie2000/PlentyChess.git
+[submodule "lib/stash-bot"]
+	path = lib/stash-bot
+	url = https://gitlab.com/mhouppin/stash-bot.git
+[submodule "lib/Stockfish"]
+	path = lib/Stockfish
+	url = https://github.com/official-stockfish/Stockfish.git
+[submodule "lib/books"]
+	path = lib/books
+	url = https://github.com/official-stockfish/books.git
+
+[submodule "lib/fuego-code"]
+	path = lib/fuego-code
+	url = https://github.com/uoftcprg/fuego-code.git
+[submodule "lib/gnugo"]
+	path = lib/gnugo
+	url = https://git.savannah.gnu.org/git/gnugo.git
+
+[submodule "lib/rapfi"]
+	path = lib/rapfi
+	url = https://github.com/dhbloo/rapfi.git
+[submodule "lib/gomocup-results"]
+	path = lib/gomocup-results
+	url = https://github.com/uoftcprg/gomocup-results.git
