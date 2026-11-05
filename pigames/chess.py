@@ -64,7 +64,7 @@ class ChessEngine(Engine):
         return self.hash(observation)
 
     def actions(self):
-        if self._board.is_game_over():
+        if self._board.is_game_over(claim_draw=True):
             return []
 
         infos = self._engine.analyse(
@@ -92,6 +92,12 @@ class ChessEngine(Engine):
         self._board.push(move)
 
     def result(self):
-        tokens = self._board.result().replace('1/2', '0.5').split('-')
+        tokens = (
+            self
+            ._board
+            .result(claim_draw=True)
+            .replace('1/2', '0.5')
+            .split('-')
+        )
 
         return tuple(map(float, tokens))
